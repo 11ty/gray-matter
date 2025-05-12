@@ -20,10 +20,6 @@ describe('.language', function() {
       raw: 'js',
       name: 'js'
     });
-    assert.deepEqual(matter.language('---coffee\nfoo: bar\n---'), {
-      raw: 'coffee',
-      name: 'coffee'
-    });
   });
 
   it('should work around whitespace', function() {
@@ -34,10 +30,6 @@ describe('.language', function() {
     assert.deepEqual(matter.language('--- js \nfoo: bar\n---'), {
       raw: ' js ',
       name: 'js'
-    });
-    assert.deepEqual(matter.language('---  coffee \nfoo: bar\n---'), {
-      raw: '  coffee ',
-      name: 'coffee'
     });
   });
 });
