@@ -2,6 +2,11 @@
 
 Reduced and maintained fork of `gray-matter` created by [Jon Schlinkert](https://github.com/jonschlinkert).
 
+Differences:
+
+- Upgraded js-yaml version
+- Uses Uint8Array interanlly instead of Node-env specific Buffer for more runtime compatibility.
+
 > Parse front-matter from a string or file. Fast, reliable and easy to use. Parses YAML front matter by default, but also has support for YAML, JSON, or TOML Front-Matter, with options to set custom delimiters.
 
 ## Install
