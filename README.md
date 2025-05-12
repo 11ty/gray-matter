@@ -1,10 +1,11 @@
 # @11ty/gray-matter
 
-Reduced and maintained fork of `gray-matter` created by [Jon Schlinkert](https://github.com/jonschlinkert).
+Reduced and maintained fork of [`gray-matter` originally by Jon Schlinkert](https://www.npmjs.com/package/gray-matter).
 
-Differences:
+Current differences:
 
-- Upgraded js-yaml version
+- [Upstream package last released in 2019](https://github.com/jonschlinkert/gray-matter/releases/tag/4.0.2).
+- Upgrades js-yaml major version to v4
 - Uses Uint8Array interanlly instead of Node-env specific Buffer for more runtime compatibility.
 
 > Parse front-matter from a string or file. Fast, reliable and easy to use. Parses YAML front matter by default, but also has support for YAML, JSON, or TOML Front-Matter, with options to set custom delimiters.
@@ -14,7 +15,7 @@ Differences:
 Install with [npm](https://www.npmjs.com/):
 
 ```sh
-$ npm install --save gray-matter
+$ npm install --save @11ty/gray-matter
 ```
 
 ## Heads up!
