@@ -34,8 +34,8 @@
     "test": "mocha"
   },
   "dependencies": {
-    "js-yaml": "^3.13.1",
-    "kind-of": "^6.0.2",
+    "js-yaml": "^4.1.0",
+    "kind-of": "^6.0.3",
     "section-matter": "^1.0.0",
     "strip-bom-string": "^1.0.0"
   },
@@ -46,10 +46,10 @@
     "extend-shallow": "^3.0.2",
     "front-matter": "^2.3.0",
     "gulp-format-md": "^2.0.0",
-    "minimist": "^1.2.0",
-    "mocha": "^10.2.0",
-    "toml": "^2.3.3",
-    "vinyl": "^2.1.0",
+    "minimist": "^1.2.8",
+    "mocha": "^10.8.2",
+    "toml": "^2.3.6",
+    "vinyl": "^2.2.1",
     "write": "^1.0.3"
   },
   "keywords": [

@@ -1,10 +1,8 @@
 # @11ty/gray-matter
 
-Reduced and maintained fork of `gray-matter`.
+Reduced and maintained fork of `gray-matter` created by [Jon Schlinkert](https://github.com/jonschlinkert).
 
-> Parse front-matter from a string or file. Fast, reliable and easy to use. Parses YAML front matter by default, but also has support for YAML, JSON, or TOML Front-Matter, with options to set custom delimiters. Used by metalsmith, assemble, verb and many other projects.
-
-Please consider following this project's author, [Jon Schlinkert](https://github.com/jonschlinkert), and consider starring the project to show your :heart: and support.
+> Parse front-matter from a string or file. Fast, reliable and easy to use. Parses YAML front matter by default, but also has support for YAML, JSON, or TOML Front-Matter, with options to set custom delimiters.
 
 ## Install
 
