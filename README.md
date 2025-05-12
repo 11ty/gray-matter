@@ -147,7 +147,7 @@ gray-matter returns a `file` object with the following properties.
 
 In addition, the following non-enumberable properties are added to the object to help with debugging.
 
-* `file.orig` **{Buffer}**: the original input string (or buffer)
+* `file.orig` **{Uint8Array}**: the original input string (or Uint8Array)
 * `file.language` **{String}**: the front-matter language that was parsed. `yaml` is the default
 * `file.matter` **{String}**: the _raw_, un-parsed front-matter string
 * `file.stringify` **{Function}**: [stringify](#stringify) the file by converting `file.data` to a string in the given language, wrapping it in delimiters and prepending it to `file.content`.

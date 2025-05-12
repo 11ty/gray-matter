@@ -19,7 +19,7 @@ declare function matter<
 >(input: I | { content: I }, options?: O): matter.GrayMatterFile<I>
 
 declare namespace matter {
-  type Input = string | Buffer
+  type Input = string | Uint8Array
   interface GrayMatterOption<
     I extends Input,
     O extends GrayMatterOption<I, O>
@@ -40,12 +40,12 @@ declare namespace matter {
     data: { [key: string]: any }
     content: string
     excerpt?: string
-    orig: Buffer | I
+    orig: Uint8Array | I
     language: string
     matter: string
     stringify(lang: string): string
   }
-  
+
   /**
    * Stringify an object to YAML or the specified language, and
    * append it to the given string. By default, only YAML and JSON

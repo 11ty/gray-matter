@@ -28,7 +28,7 @@
   ],
   "main": "index.js",
   "engines": {
-    "node": ">=6.0"
+    "node": ">=11"
   },
   "scripts": {
     "test": "mocha"
