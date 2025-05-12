@@ -42,7 +42,6 @@
   "devDependencies": {
     "ansi-green": "^0.1.1",
     "benchmarked": "^2.0.0",
-    "coffeescript": "^2.2.3",
     "delimiter-regex": "^2.0.0",
     "extend-shallow": "^3.0.2",
     "front-matter": "^2.3.0",
@@ -55,8 +54,6 @@
   },
   "keywords": [
     "assemble",
-    "coffee",
-    "coffee-script",
     "data",
     "docs",
     "documentation",
@@ -117,7 +114,6 @@
       ]
     },
     "reflinks": [
-      "coffe-script",
       "generate",
       "js-yaml",
       "toml",
