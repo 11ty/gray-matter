@@ -34,7 +34,7 @@ Add the HTML in the following example to `example.html`, then add the following 
 
 ```js
 const fs = require('fs');
-const matter = require('gray-matter');
+const matter = require('@11ty/gray-matter');
 const str = fs.readFileSync('example.html', 'utf8');
 console.log(matter(str));
 ```
@@ -106,15 +106,15 @@ Some libraries met most of the requirements, but _none met all of them_.
 Using CommonJS:
 
 ```js
-const matter = require('gray-matter');
+const matter = require('@11ty/gray-matter');
 ```
 
 Or ESM:
 
 ```js
-import matter = require('gray-matter');
+import matter = require('@11ty/gray-matter');
 // OR
-import * as matter from 'gray-matter';
+import * as matter from '@11ty/gray-matter';
 ```
 
 Pass a string and [options](#options) to gray-matter:
@@ -209,7 +209,7 @@ Takes a string or object with `content` property, extracts and parses front-matt
 **Example**
 
 ```js
-const matter = require('gray-matter');
+const matter = require('@11ty/gray-matter');
 console.log(matter('---\ntitle: Home\n---\nOther stuff'));
 //=> { data: { title: 'Home'}, content: 'Other stuff' }
 ```
