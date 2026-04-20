@@ -36,9 +36,7 @@
   },
   "dependencies": {
     "js-yaml": "^4.1.1",
-    "kind-of": "^6.0.3",
-    "section-matter": "^1.0.0",
-    "strip-bom-string": "^1.0.0"
+    "section-matter": "^1.0.0"
   },
   "devDependencies": {
     "ansi-green": "^0.1.1",
