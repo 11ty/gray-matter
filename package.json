@@ -46,7 +46,7 @@
     "front-matter": "^2.3.0",
     "gulp-format-md": "^2.0.0",
     "minimist": "^1.2.8",
-    "mocha": "^10.8.2",
+    "mocha": "^11.7.6",
     "toml": "^2.3.6",
     "vinyl": "^2.2.1",
     "write": "^1.0.3"
