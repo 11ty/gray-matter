@@ -17,7 +17,10 @@
     "Zach Whaley (http://zachwhaleys.website)",
     "Zach Leatherman (https://zachleat.com)"
   ],
-  "repository": "11ty/gray-matter",
+  "repository": {
+		"type": "git",
+		"url": "git+https://github.com/11ty/gray-matter.git"
+	},
   "bugs": {
     "url": "https://github.com/11ty/gray-matter/issues"
   },
