@@ -38,7 +38,7 @@
     "test": "mocha"
   },
   "dependencies": {
-    "js-yaml": "^5.2.3",
+    "js-yaml": "^5.3.0",
     "section-matter": "^1.0.0"
   },
   "devDependencies": {
