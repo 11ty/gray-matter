@@ -36,8 +36,13 @@ function matter(input, options) {
 
   if (!options) {
     if (cached) {
+      // Object.assign only copies enumerable properties, so the non-enumerable
+      // ones set by lib/to-file.js have to be copied over explicitly.
       file = Object.assign({}, cached);
       file.orig = cached.orig;
+      file.language = cached.language;
+      file.matter = cached.matter;
+      file.stringify = cached.stringify;
       return file;
     }
 
